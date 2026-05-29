@@ -7,9 +7,10 @@ BST, Forca Bruta, algoritmo Guloso e analise de desempenho.
 
 Preencha antes da entrega:
 
-| RA | Nome |
-|---|---|
-| 000000 | Nome do integrante |
+| RM | Nome |
+| 571922 | Guilherme Damasio Roselli |
+| 571090 | Antonio Lino da Silva JR | 
+| 570948 | Lucas Mirando Leite |
 
 ## Cenarios brasileiros
 
