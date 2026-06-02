@@ -47,7 +47,7 @@ report/figures/                   figuras geradas
 Abra o PowerShell dentro da pasta do projeto ou execute:
 
 ```powershell
-cd "C:\Users\guilh\OneDrive\Área de Trabalho\Global_Solution_Dynamic_Programming"
+cd "caminho\para\Global_Solution_Dynamic_Programming"
 ```
 
 Instale as dependencias:
