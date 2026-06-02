@@ -1,0 +1,3 @@
+scenario,source,target,high_risk,brute_path,brute_cost,brute_calls,greedy_path,greedy_cost,greedy_operations,mst_cost,mst_edges,bst_height
+rs,Porto Alegre,Eldorado do Sul,Sapucaia do Sul; Esteio; Nova Santa Rita; Canoas; Eldorado do Sul,Porto Alegre -> Eldorado do Sul,0.5,33,Porto Alegre -> Eldorado do Sul,0.5,3,4.7,9,6
+matopiba,Imperatriz,Barreiras,Luis Eduardo Magalhaes; Araguaina; Barreiras,Imperatriz -> Araguaina -> Luis Eduardo Magalhaes -> Barreiras,14.700000000000001,12,Imperatriz -> Araguaina -> Luis Eduardo Magalhaes -> Barreiras,14.700000000000001,16,34.9,7,4
