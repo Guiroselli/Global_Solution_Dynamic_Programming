@@ -15,6 +15,18 @@ from src.visualizations import (
     plot_performance,
 )
 
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse
+
+app = FastAPI(title="Global Solution API", description="API para monitoramento de riscos ambientais")
+
+@app.get("/")
+def read_root():
+    return JSONResponse(content={
+        "status": "online", 
+        "projeto": "Global Solution 2026",
+        "mensagem": "A API de Programação Dinâmica está rodando com sucesso no Vercel!"
+    })
 
 def run_scenario(scenario: str, source: int, risk_min: float, output_dir: Path) -> dict[str, object]:
     municipalities, graph = get_scenario_data(scenario)

@@ -1,3 +1,5 @@
 matplotlib>=3.8
 networkx>=3.2
 pytest>=8.0
+fastapi
+uvicorn

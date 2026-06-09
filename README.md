@@ -139,17 +139,40 @@ Ao executar `python main.py`, o sistema:
 | 3 | Dijkstra em grafo medio/grande | escalavel para resposta operacional |
 | 4 | Prim para cobertura regional | adequado quando o objetivo e conectar todos os municipios com custo minimo |
 
-## Figuras obrigatorias
+## 📊 Resultados Visuais (Imagens Geradas pelo Algoritmo)
 
-As figuras sao geradas automaticamente:
+Ao rodar os algoritmos, o sistema avalia os cenários e gera automaticamente os relatórios visuais de desempenho e topologia.
 
-- `report/figures/grafo_mst_rs.png`
-- `report/figures/grafo_mst_matopiba.png`
-- `report/figures/bst_risco_rs.png`
-- `report/figures/bst_risco_matopiba.png`
-- `report/figures/desempenho_tempo.png`
-- `report/figures/gap_otimalidade.png`
+### 🌐 Grafo e Árvore Geradora Mínima (MST)
+Modelagem das regiões e as conexões de menor custo para o atendimento às áreas de risco.
 
-O arquivo `report/relatorio_base.md` ja inclui titulo, legenda, fonte e
-interpretacao textual das figuras. O PDF `report/relatorio_final.pdf` e um
-rascunho gerado automaticamente para facilitar a entrega.
+**Rio Grande do Sul:**
+![Grafo MST - RS](report/figures/grafo_mst_rs.png)
+
+**MATOPIBA:**
+![Grafo MST - MATOPIBA](report/figures/grafo_mst_matopiba.png)
+
+---
+
+### 🌳 Árvore Binária de Busca (BST) de Risco
+Organização das áreas afetadas priorizando pelo nível de urgência/risco.
+
+**Rio Grande do Sul:**
+![BST Risco - RS](report/figures/bst_risco_rs.png)
+
+**MATOPIBA:**
+![BST Risco - MATOPIBA](report/figures/bst_risco_matopiba.png)
+
+---
+
+### 📈 Análise de Desempenho dos Algoritmos
+Comparativo de eficiência entre Busca Exaustiva (Força Bruta) e Dijkstra.
+
+**Tempo de Execução:**
+![Desempenho Tempo](report/figures/desempenho_tempo.png)
+
+**Gap de Otimalidade:**
+![Gap de Otimalidade](report/figures/gap_otimalidade.png)
+
+---
+O arquivo `report/relatorio_base.md` já inclui título, legenda, fonte e interpretação textual das figuras. O PDF `report/relatorio_final.pdf` é um rascunho gerado automaticamente para facilitar a análise.
